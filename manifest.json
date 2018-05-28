@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name" : "Bookmark Manager",
+	"version": "1.0",
+	"description" : "Handle Bookmarks",
+	"script-src": "self",
+	"browser_action" : {
+		"default_popup" : "popup/popup.html"
+	},
+	"background": {
+		"scripts" : ["background.js"]
+	},
+	"permissions" : [
+		"bookmarks",
+		"tabs"
+	]
+} 
